@@ -18,6 +18,8 @@ Lang.prototype.concat = function (other) {
 
 Lang.empty = () => Lang('');
 
+console.log('Monoid');
+
 /**
  * Laws:
  */

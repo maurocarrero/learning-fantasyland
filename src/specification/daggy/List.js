@@ -47,6 +47,7 @@ List.prototype.toArray = function () {
   });
 };
 
+console.log('daggy::List');
 expect(typeof Nil).toBe('object')
 expect(typeof Cons).toBe('function')
 

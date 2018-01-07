@@ -21,6 +21,7 @@ const myLine = Line(
   newCoord.translate(1, 2, 3)
 );
 
+console.log('daggy::Line');
 expect(myLine.toString()).toEqual('Line(Coord(1, 2, 3), Coord(2, 4, 6))');
 
 const myOtherLine = Line('Peteco', 23);

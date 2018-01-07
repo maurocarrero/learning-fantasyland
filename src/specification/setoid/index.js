@@ -28,6 +28,7 @@ Bool.prototype.equals = function (that) {
   return this === that;
 };
 
+console.log('Setoid');
 expect(Bool.True.equals(Bool.True)).toBe(true);
 expect(Bool.False.equals(Bool.False)).toBe(true);
 expect(Bool.False.equals(Bool.True)).toBe(false);

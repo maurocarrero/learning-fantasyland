@@ -34,6 +34,7 @@ const zipWith = curry((f, xs, ys) => {
   return zs;
 });
 
+console.log('Type Signatures');
 expect(
   zipWith(add)([ 1, 2 ])([ 4, 5, 6 ])
 ).toEqual([ 5, 7 ]);

@@ -56,6 +56,7 @@ const l1 = List.from([ 1, 2, 3 ]);
 const l2 = List.from([ 1, 2, 3, 4 ]);
 const l3 = List.from([ 1, 2 ]);
 
+console.log('Ord');
 expect(l1.lte(l2)).toEqual(true);
 expect(l3.lte(l1)).toEqual(true);
 expect(l2.lte(l1)).toEqual(false);

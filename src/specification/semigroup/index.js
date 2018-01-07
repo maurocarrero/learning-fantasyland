@@ -19,6 +19,7 @@ const expect = require('expect');
 
 // JS String is already a FantasyLand-compliant Semigroup
 
+console.log('Semigroup');
 expect('hello '.concat('world')).toEqual('hello world');
 
 // Law: ASSOCIATIVITY

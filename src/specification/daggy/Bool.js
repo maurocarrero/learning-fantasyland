@@ -16,6 +16,7 @@ const Bool = daggy.taggedSum('Bool', {
   False: []
 });
 
+console.log('daggy::Bool');
 expect(Bool.True.toString()).toEqual('Bool.True');
 expect(Bool.False.toString()).toEqual('Bool.False');
 

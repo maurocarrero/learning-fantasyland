@@ -31,6 +31,7 @@ Coord.prototype.translate = function (x, y, z) {
 const a = Coord(1, 2, 3);
 const b = a.scale(2);
 
+console.log('daggy::Coord');
 expect(Coord.toString()).toEqual('Coord');
 expect(a).toEqual({ x: 1, y: 2, z: 3 });
 expect(b).toEqual({ x: 2, y: 4, z: 6 });

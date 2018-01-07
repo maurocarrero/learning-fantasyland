@@ -42,6 +42,8 @@ Shape.prototype.translate = function (x, y, z) {
 const myUselessCircle = Shape.Circle(3, 23);
 const myUselessSquare = Shape.Square(3, 23);
 
+console.log('daggy::Shape');
+
 // This will work with any value, but in this case for the Circle,
 // it makes no sense to pass 2 Numbers, because we need 2 Coord
 expect(myUselessCircle.toString()).toEqual('Shape.Circle(3, 23)');

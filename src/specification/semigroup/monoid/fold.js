@@ -9,13 +9,9 @@ const Sum = require('../sum');
 // A friendly neighborhood monoid fold:
 
 // fold :: Monoid m => (a -> m) -> [a] -> m
-const fold = (M) => (xs) => {
-  console.log('xs', xs);
-  const result = xs.reduce((acc, x) =>
-      acc.concat(M(x)), M.empty());
-  console.log('result', result);
-  return result;
-};
+const fold = (M) => (xs) =>
+  xs.reduce((acc, x) =>
+    acc.concat(M(x)), M.empty());
 
 const myList = [ 10, 1, 2, 3, 23 ];
 
