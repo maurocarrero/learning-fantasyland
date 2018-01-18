@@ -55,5 +55,7 @@ require('./all');
 require('./first');
 require('./last');
 
+require('./set');
+
 require('./tuple');
 require('./monoid');

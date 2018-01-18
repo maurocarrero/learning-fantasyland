@@ -2,11 +2,11 @@
 
 const expect = require('expect');
 const { tagged } = require('daggy');
+
 const Sum = require('./sum');
 const Min = require('./min');
 const Any = require('./any');
 const First = require('./first');
-const List = require('../daggy/List');
 const { curry } = require('ramda');
 
 const Tuple = tagged('Tuple', [ 'a', 'b' ]);

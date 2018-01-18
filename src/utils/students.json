@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Eugenia",
+    "grades": [ 39, 25, 65, 83, 11, 71, 36, null, null, 5 ]
+  },
+  {
+    "name": "Melany",
+    "grades": [ 10, 72, 73, 30, 92, null, 43, 70, null, 91 ]
+  },
+  {
+    "name": "Trycia",
+    "grades": [ 64, 71, null, 50, 72, 50, 99, 73, null, 56 ]
+  },
+  {
+    "name": "Imogene",
+    "grades": [ 14, 69, 15, 4, null, 92, 72, 99, null, 82 ]
+  },
+  {
+    "name": "Gabe",
+    "grades": [ 39, 37, 55, 4, null, 62, null, 82, 4, 20 ]
+  },
+  {
+    "name": "Ole",
+    "grades": [ 27, null, 96, 85, 5, null, 65, 32, 10, 44 ]
+  },
+  {
+    "name": "Thea",
+    "grades": [ 3, null, 50, 34, 53, 96, 9, 66, null, 95 ]
+  },
+  {
+    "name": "Torrance",
+    "grades": [ 45, 12, 70, 70, 71, 2, 61, 20, 99, null, null ]
+  },
+  {
+    "name": "Christy",
+    "grades": [ 26, null, 1, 18, null, 43, 96, 75, 29, 100 ]
+  },
+  {
+    "name": "Kristy",
+    "grades": [ 32, 43, 9, 11, 62, 95, null, 97, 1, 2, null ]
+  }
+]
